@@ -1,0 +1,29 @@
+html,
+body {
+    font-family: $Iconic-regular;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+
+img {
+    width: 100%;
+}
+
+.home-container {
+    .banner {
+        background-color: #0e0e0e;
+        .banner-item {
+            max-width: 1080px;
+            margin: auto;
+        }
+    }
+    .sect-1 {
+        background-color: #0e0e0e;
+        .col-md-6 {
+            img {
+                height: 100vh;
+                object-fit: contain;
+            }
+        }
+    }
+}

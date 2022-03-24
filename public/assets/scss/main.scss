@@ -1,0 +1,12 @@
+@mixin media-query($length) {
+    @media (max-width: $length) {
+        @content;
+    }
+}
+
+$Iconic-regular: 'FCIconicRegular';
+$Iconic-bold: 'FCIconicBold';
+$c-red: #d64249;
+$c-green: #056839;
+@import "style";
+@import "response";
