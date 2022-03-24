@@ -2,20 +2,39 @@ html,
 body {
   font-family: "FCIconicRegular";
   font-size: 1.2rem;
-  line-height: 1.25rem; }
+  line-height: 1.25rem;
+}
 
 img {
-  width: 100%; }
+  width: 100%;
+}
+
+.max-w-1080 {
+  max-width: 1080px;
+  margin: auto;
+}
 
 .home-container .banner {
-  background-color: #0e0e0e; }
-  .home-container .banner .banner-item {
-    max-width: 1080px;
-    margin: auto; }
+  background-color: #0e0e0e;
+}
 .home-container .sect-1 {
-  background-color: #0e0e0e; }
-  .home-container .sect-1 .col-md-6 img {
-    height: 100vh;
-    object-fit: contain; }
+  background-color: #0e0e0e;
+}
+.home-container .sect-2 {
+  background-color: #010005;
+}
+.home-container .sect-3 {
+  background-color: #040309;
+}
+.home-container .sect-4 {
+  background-color: #000000;
+}
+.home-container .sect-5 {
+  background-color: #000000;
+  padding: 3rem 0;
+}
+.home-container .sect-5 .img-item {
+  max-width: 540px;
+}
 
 /*# sourceMappingURL=main.css.map */
