@@ -1,38 +1,217 @@
 html,
 body {
     font-family: $Iconic-regular;
-    font-size: 1.2rem;
-    line-height: 1.25rem;
+    font-size: 1.15rem;
+    line-height: 1.2rem;
+    color: #ffffff;
 }
 
 img {
     width: 100%;
 }
-.max-w-1080{
+
+.max-w-1080 {
     max-width: 1080px;
     margin: auto;
 }
+
 .home-container {
     .banner {
         background-color: #0e0e0e;
+        overflow: hidden;
     }
     .sect-1 {
         background-color: #0e0e0e;
-    }
-    .sect-2{
-        background-color: #010005;
-    }
-    .sect-3{
-        background-color: #040309;
-    }
-    .sect-4{
-        background-color: #000000;
-    }
-    .sect-5{
-        background-color: #000000;
-        padding: 3rem 0;
-        .img-item{
-            max-width: 540px;
+        overflow: hidden;
+        .logo-text {
+            max-width: 380px;
         }
+        .row {
+            .col-md-6:first-child {
+                padding-right: 4rem;
+                padding-left: 0;
+            }
+            .col-md-6 {
+                .box-desc {
+                    padding-right: 2rem;
+                }
+            }
+            .col-md-6.position-relative {
+                .position-absolute {
+                    top: 6.5rem;
+                    h2 {
+                        max-width: 200px;
+                        padding-left: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .sect-2 {
+        background-color: #010005;
+        overflow: hidden;
+        .logo-text {
+            max-width: 380px;
+        }
+        .row {
+            padding: 3rem 0 0;
+            .col-md-6:first-child {
+                padding-right: 4rem;
+            }
+            .col-md-6 {
+                .box-desc {
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+    .sect-3 {
+        background-color: #040309;
+        overflow: hidden;
+        .max-w-1080 {
+            background-image: url('../images/helix-3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center left;
+        }
+        .box-desc {
+            max-width: 400px;
+            margin-inline-start: auto;
+            padding: 3rem 0;
+            .no-bg {
+                padding: 0 4rem 0 1rem;
+            }
+            .bg-green {
+                padding: .5rem 1rem;
+                font-size: 1rem;
+                line-height: 1rem;
+            }
+        }
+    }
+    .sect-4 {
+        background-color: #000000;
+        .max-w-1080 {
+            background-image: url('../images/helix-4.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .row {
+            padding-left: 3rem;
+            padding-top: 3rem;
+        }
+        .col-lg-3 {
+            padding: 0;
+        }
+        .box-desc.bg-white {
+            padding: 2rem 1rem 1rem;
+            height: 100%;
+            position: relative;
+            .title {
+                position: absolute;
+                top: -15px;
+                left: -10px;
+                background-color: $c-green;
+                font-family: $Iconic-bold;
+                color: #ffffff;
+                display: inline-block;
+                padding: 0 .5rem;
+                h2 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .box-desc.bg-black {
+        padding: 0 1rem 1rem;
+        font-size: 1rem;
+        line-height: 1rem;
+        height: 100%;
+        .title {
+            background-color: #fff;
+            font-family: $Iconic-bold;
+            color: $c-green;
+            display: inline-block;
+            padding: 0 .5rem;
+            margin-bottom: 1rem;
+            h2 {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.sect-5 {
+    background-color: #000000;
+    padding: 3rem 1.5rem;
+    .img-item {
+        max-width: 540px;
+        margin: -3rem auto 0;
+    }
+    .btn-wesite {
+        position: relative;
+        z-index: 9;
+    }
+    .list-item {
+        a {
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    h1 {
+        border-left: 4px solid #fff;
+        border-right: 4px solid #fff;
+        display: inline-block;
+        padding: 0 1.5rem;
+    }
+    .row {
+        .col-md-3:not(:first-child) {
+            padding: 0 1.5rem;
+        }
+        .col-md-3:not(:last-child) {
+            border-right: 1px solid #fff;
+        }
+        .col-md-3 {
+            position: relative;
+            .position-absolute {
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+.l-border {
+    border-left: 4px solid $c-red;
+    padding-left: 1rem;
+}
+
+.pr-4rem {
+    padding-right: 4rem;
+}
+
+.btn-wesite {
+    text-decoration: none;
+    font-family: $Iconic-bold;
+    font-size: 1.5rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    &:hover {
+        color: #000;
+        background-color: #fff;
+    }
+}
+
+.small-logo {
+    top: 1rem;
+    left: 1.5rem;
+    z-index: 9;
+    img {
+        max-width: 100px;
     }
 }

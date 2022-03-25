@@ -8,5 +8,37 @@ $Iconic-regular: 'FCIconicRegular';
 $Iconic-bold: 'FCIconicBold';
 $c-red: #d64249;
 $c-green: #056839;
+.c-red {
+    color: $c-red
+}
+
+.c-green {
+    color: $c-green
+}
+
+.c-black {
+    color: #000000;
+}
+
+.c-white {
+    color: #ffffff;
+}
+
+.bg-green {
+    background-color: $c-green;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.ff-bold {
+    font-family: $Iconic-bold;
+}
+
 @import "style";
 @import "response";
