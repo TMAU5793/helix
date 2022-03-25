@@ -180,6 +180,12 @@ img {
   .small-logo img {
     max-width: 100px; }
 
+.hide-767 {
+  display: block; }
+
+.show-767 {
+  display: none; }
+
 @media (max-width: 991px) {
   .home-container .sect-1 .row .col-md-6:first-child {
     padding-right: 2rem; }
@@ -200,9 +206,19 @@ img {
     transform: none !important;
     padding: 0 0 3rem; } }
 @media (max-width: 767px) {
+  .hide-767 {
+    display: none; }
+
+  .show-767 {
+    display: block; }
+
+  .small-logo {
+    display: none; }
+
   .home-container .sect-1 .row .col-md-6:first-child {
     text-align: center;
-    padding-right: 0; }
+    padding-right: 0;
+    order: 2; }
     .home-container .sect-1 .row .col-md-6:first-child img {
       max-width: 300px; }
     .home-container .sect-1 .row .col-md-6:first-child .position-absolute {
@@ -214,11 +230,16 @@ img {
       background-color: rgba(0, 0, 0, 0.75); }
       .home-container .sect-1 .row .col-md-6:first-child .position-absolute h2 {
         padding: 0; }
+  .home-container .sect-1 .row .col-md-6:last-child {
+    order: 1; }
+    .home-container .sect-1 .row .col-md-6:last-child .position-absolute {
+      padding: 3rem 0 1.5rem; }
   .home-container .sect-1 .logo-text {
     max-width: 250px; }
   .home-container .sect-2 .row .col-md-6:first-child {
     text-align: center;
-    padding-right: 0; }
+    padding-right: 0;
+    order: 2; }
     .home-container .sect-2 .row .col-md-6:first-child img {
       max-width: 300px; }
     .home-container .sect-2 .row .col-md-6:first-child .position-absolute {
@@ -230,10 +251,12 @@ img {
       background-color: rgba(0, 0, 0, 0.75); }
       .home-container .sect-2 .row .col-md-6:first-child .position-absolute h2 {
         padding: 0; }
+  .home-container .sect-2 .row .col-md-6:last-child {
+    order: 1; }
+    .home-container .sect-2 .row .col-md-6:last-child .position-absolute {
+      padding: 3rem 0 1.5rem; }
   .home-container .sect-2 .logo-text {
     max-width: 250px; }
-  .home-container .sect-3 .max-w-1080 {
-    background-position: center; }
   .home-container .sect-3 .box-desc {
     max-width: 100%;
     padding: 2.25rem; }

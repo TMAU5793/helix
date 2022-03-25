@@ -28,7 +28,8 @@
                     <div class="col-md-6 position-relative">
                         <div class="position-absolute top-50 translate-middle-y">
                             <div class="logo-text">
-                                <img src="{{ url('assets/images/logo-2.png') }}" alt="">
+                                <img src="{{ url('assets/images/logo-2.png') }}" alt="" class="hide-767">
+                                <img src="{{ url('assets/images/logo-2-250.png') }}" alt="" class="show-767">
                             </div>
                             <div class="box-desc mt-3">
                                 <p>เรานำข้าวสาลีคุณภาพเยี่ยมจากแคว้นแชมเปญของฝรั่งเศส ที่มีการกลั่นกรองคอลัมน์อย่างน้อยถึง 7 ครั้ง ซึ่งจะถูกส่งไปยังประเทศไอซ์แลนด์ ผ่านการกรองคาร์บอนและทำการผสมกับน้ำไอซ์แลนดิก ที่มีปริมาณแร่ธาตุต่ำมาก และระดับอัลคาไลน์สูง <span class="c-red d-block">รับประกันรสชาติที่ยอดเยี่ยม</span></p>
@@ -53,7 +54,8 @@
                     <div class="col-md-6 position-relative">
                         <div class="position-absolute top-50 translate-middle-y">
                             <div class="logo-text">
-                                <img src="{{ url('assets/images/logo-2.png') }}" alt="">
+                                <img src="{{ url('assets/images/logo-2.png') }}" alt="" class="hide-767">
+                                <img src="{{ url('assets/images/logo-2-250.png') }}" alt="" class="show-767">
                             </div>
                             <div class="box-desc mt-3">
                                 <p>HELIX มีค่าที่สมดุลและเหมาะสมอยู่ที่ pH 7.4 ต้องบอกว่าสิ่งนี้ไม่เคยเกิดขึ้นมาก่อน การผสมผสานของวอดก้าฝรั่งเศสและน้ำไอซ์แลนดิก ทั้งสองอย่างนี้ทำให้เกิด DNA ความยอดเยี่ยมของวอดก้าพรีเมี่ยมตัวนี้ <span class="c-red">และนี่คือแรงบันดาลใจของชื่อ HELIX</span> ซึ่งเป็นชื่อเรียกของการผสมผสานกันของสองสิ่งจนเกิดเป็น DNA ใหม่</p>
