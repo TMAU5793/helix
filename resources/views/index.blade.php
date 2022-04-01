@@ -116,36 +116,33 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
-                        <span class="d-block ff-bold">Vigor Limited</span>
+                        <span class="d-block ff-bold">Rejuvis co., ltd.</span>
                         <span>32, Moo 4, Tambon Donkrabuang, Ampur Banpong, Ratchaburi 70110, Thailand.</span>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="position-absolute">
                             <div class="list-item">
-                                <strong class="ff-bold">E-mail : </strong><a href="mailto:siriwass@vgr.co.th">siriwass@vgr.co.th</a>
-                            </div>
-                            <div class="list-item">
-                                <strong class="ff-bold">E-mail : </strong><a href="mailto:siriwass@vigorltd.co">siriwass@vigorltd.co</a>
+                                <strong class="ff-bold">E-mail : </strong><a href="mailto:info.ho@rejuvis.co.th">info.ho@rejuvis.co.th</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="position-absolute">
-                            <div class="list-item">
-                                <strong class="ff-bold">Website : </strong><a href="http://www.vgr.co.th/" target="_blank">www.vgr.co.th</a>
-                            </div>
                             <div class="list-item">
                                 <strong class="ff-bold">Website : </strong><a href="https://www.rejuvis.co.th/" target="_blank">www.rejuvis.co.th</a>
                             </div>
+                            <div class="list-item">
+                                <strong class="ff-bold">Website : </strong><a href="https://rejuvis.co.th/mctoil" target="_blank">www.rejuvis.co.th/mctoil</a>
+                            </div>
+                            <div class="list-item">
+                                <strong class="ff-bold">Website : </strong><a href="https://www.rejuvis.co.th/helix7" target="_blank">www.rejuvis.co.th/helix7</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="position-absolute">
                             <div class="list-item">
-                                <strong class="ff-bold">Website : </strong><a href="tel:+ 66 32 299288">+ 66 32 299288</a>
-                            </div>
-                            <div class="list-item">
-                                <strong class="ff-bold">Website : </strong><a href="tel:+66 61 1898656">+66 61 1898656</a>
+                                <strong class="ff-bold">Tel : </strong><a href="tel:+ 66 632516886">+ 66 632516886</a>
                             </div>
                         </div>
                     </div>
