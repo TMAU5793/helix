@@ -142,6 +142,9 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="position-absolute">
                             <div class="list-item">
+                                <strong class="ff-bold">Tel : </strong><a href="tel:+ 66 32299288">+ 66 32299288</a>
+                            </div>
+                            <div class="list-item">
                                 <strong class="ff-bold">Tel : </strong><a href="tel:+ 66 632516886">+ 66 632516886</a>
                             </div>
                         </div>
